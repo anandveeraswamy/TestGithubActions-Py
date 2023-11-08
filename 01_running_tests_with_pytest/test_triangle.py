@@ -17,7 +17,7 @@ class TestAreaOfTriangle():
     def test_integer_values(self):
         """ Test areas when values are integers """        
         assert 5.0 == area_of_a_triangle(2,5)        
-        assert 10.0 == area_of_a_triangle(4,6)
+        assert 12.0 == area_of_a_triangle(4,6)
 
     def test_zero_base(self):
         """ Test areas when base is zero """        
