@@ -14,7 +14,7 @@ class TestAreaOfTriangle():
         """ Test areas when values are floats """
         assert 14.43870626 == area_of_a_triangle(3.4556, 8.3567)
         assert pytest.approx(14.43870626) == area_of_a_triangle(3.4556, 8.3567)
-        assert 6.555 == area_of_a_triangle(2.3, 5.7)
+        assert 7.555 == area_of_a_triangle(2.3, 5.7)
 
     def test_integer_values(self):
         """ Test areas when values are integers """
